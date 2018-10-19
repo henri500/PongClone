@@ -1,12 +1,11 @@
 #:kivy 1.0.9
 
-<PongBall>:
+<Ball>:
     size: 50, 50 
     canvas:
         Ellipse:
             pos: self.pos
             size: self.size          
-
 <Paddle>:
     size: 25, 200
     canvas:
@@ -38,7 +37,7 @@
         top: root.top - 50
         text: str(root.player2.score)
     
-    PongBall:
+    Ball:
         id: pong_ball
         center: self.parent.center
         
