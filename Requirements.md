@@ -2,4 +2,6 @@
 
 Python3.5 + :https://www.python.org/downloads/
 
-Kivy : https://kivy.org/#download
+Kivy 1.0.9 : https://kivy.org/#download
+
+
